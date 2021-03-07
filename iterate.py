@@ -7,3 +7,8 @@ print("df : \n",df)
 print("\niterate col1")
 for i in df.index: 
     print(df['col1'][i]) 
+
+print("\niterate col1")
+for item in df['col1']: 
+    print(item) 
+
