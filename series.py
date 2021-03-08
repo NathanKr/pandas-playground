@@ -12,3 +12,5 @@ df = df.append(s1,ignore_index=True)
 df = df.append(s2,ignore_index=True)
 
 print(f"df\n{df}")
+print(f"type(df['col1'].to_list()) : {type(df['col1'].to_list())}")
+print(f"type(df['col1'].to_numpy()) : {type(df['col1'].to_numpy())}")
