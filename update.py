@@ -9,6 +9,6 @@ df.iloc[1,0]=99
 print("df after first update : \n",df)
 
 # use loc to update second col in third row
-df.loc[2,'col2']=99
+df.loc[2,'col2']=88
 print("df after second update : \n",df)
 
