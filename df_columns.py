@@ -7,6 +7,6 @@ print(f'df.columns before : {df.columns}')
 
 # remove second column
 df.drop([1], axis=1,inplace=True)
-print(f'df.columns before : {df.columns}')
+print(f'df.columns after drop decond column : {df.columns}')
 print("df : \n",df)
 
