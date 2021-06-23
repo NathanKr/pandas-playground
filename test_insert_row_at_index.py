@@ -17,5 +17,6 @@ def test_insert_row_to_new_df_seperate_df_true():
     assert(new_df.equals(expected_new_df))        
     assert(df.equals(orig_df))           
     assert(len(new_df) == 4)
-    assert(len(df) == 3)               
+    assert(len(df) == 3)      
+    assert(new_df.index.tolist() == [0,1,2,3])         
 

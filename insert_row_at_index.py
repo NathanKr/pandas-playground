@@ -19,7 +19,8 @@ def insert_row_to_new_df(i_row : int, df : pd.DataFrame, row : List)->pd.DataFra
     new_df = pd.concat([df1, df2])
    
     # Reassign the index labels
-    new_df.index = [*range(new_df.shape[0])]
+    # new_df.index = [*range(new_df.shape[0])]
+    new_df.reset_index(inplace=True,drop=True) # drop prev index
    
     # Return the updated dataframe
     return new_df
