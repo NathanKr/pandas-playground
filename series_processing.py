@@ -1,7 +1,7 @@
 import pandas as pd
 
-# get the item which is integer
-s1 = pd.Series(['$' , '11' , 'a1',''])
+# get the string which represent integers
+s1 = pd.Series(['$' , '11' , 'a1', '123'])
 print(f'\ns1\n{s1}')
 res_bool : pd.Series = s1.apply(lambda string : string.isnumeric())
 print(f'\nis numeric in series : {res_bool}')

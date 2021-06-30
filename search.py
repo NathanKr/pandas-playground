@@ -18,5 +18,6 @@ series_col_1 = df['col1']
 filt_series = series_col_1 > 19
 print(f'\nfilt_series\n{filt_series}')
 print(f'\nseries_col_1[filt_series]\n{series_col_1[filt_series]}')
+print(f'\nseries_col_1[filt_series].array\n{series_col_1[filt_series].array}')
 
 
