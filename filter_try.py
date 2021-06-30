@@ -13,6 +13,7 @@ print (f'\ndf[df > 19]\n{df[df > 19]}')
 
 # search for values using logical and
 filt = (df > 19) & (df < 22)
+print (f'\nfilt\n{filt}')
 print (f'\ndf[filt]\n{df[filt]}')
 print (f'\ndf[~filt]\n{df[~filt]}') # not ( > 19 and < 22)
 
