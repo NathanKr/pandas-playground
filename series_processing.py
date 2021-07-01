@@ -1,6 +1,6 @@
 import pandas as pd
 
-# get the string which represent integers
+# get the string which represent integer
 s1 = pd.Series(['$' , '11' , 'a1', '123'])
 print(f'\ns1\n{s1}')
 filt : pd.Series = s1.apply(lambda string : string.isnumeric())
